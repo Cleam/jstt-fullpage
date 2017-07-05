@@ -1,6 +1,6 @@
 @charset "utf-8";
-#page_download {
-    background-color: #1A1D3E;
+#page_download_text > div {
+    font-size: 80%;
 }
 em, i {
     font-style: normal;
@@ -631,7 +631,7 @@ em, i {
 	}
 }*/
 
-@media (max-width:1366px) {
+@media (min-width: 1280px) and (max-width:1366px) {
     #page_download_hand {
 	    left: 6%;
 	}
@@ -647,9 +647,11 @@ em, i {
     }
     .prov-bar-wrap {
         margin-top: 15%;
+        flex: 0 0 50%;
+        width: 50%;
     }
     .map-wrap {
-        margin-top: 2%;
+        margin-top: 0;
     }
     .map-wrap .map {
         width: 471px;
@@ -683,6 +685,11 @@ em, i {
         left: 354px;
         top: 410px;
     }
+
+    .prov-bar {
+        margin-bottom: 5%;
+    }
+
     #page_download_button_top,
     #page_download_mobile_iPhone,
     #page_download_mobile_android {

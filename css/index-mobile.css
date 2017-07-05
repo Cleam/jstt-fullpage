@@ -68,15 +68,20 @@
     }
     #page_download_hand {
         position: absolute;
-        left: -5%;
-        top: 30%;
-        width: 80%;
+        left: 4%;
+        top: 6%;
+        width: 92%;
     }
     #page_download_show {
-        width: 80%;
+        /*width: 80%;
         right: 10%;
         top: 10%;
-        height: 80%;
+        height: 80%;*/
+        width: 80%;
+        right: 10%;
+        top: auto;
+        height: 20%;
+        bottom: 5%;
     }
     #page_download_text {
         left: 0;
