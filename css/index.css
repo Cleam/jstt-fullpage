@@ -3005,7 +3005,7 @@ screen and (min-device-width:1366px) {
         background-position: 0 -21px;
     }
     #page_function1_book_page1 {
-        background-image: url("../images/function1_book_page1_2x2761ce.jpg");
+        background-image: url("../images/function1_book_page1_4x2761ce.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page2 {
@@ -3276,7 +3276,7 @@ screen and (min-device-pixel-ratio:1.5) {
         background-position: 0 -21px;
     }
     #page_function1_book_page1 {
-        background-image: url("../images/function1_book_page1_2x2761ce.jpg");
+        background-image: url("../images/function1_book_page1_4x2761ce.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page2 {
@@ -4670,7 +4670,7 @@ img {
     position: absolute;
     left: 15%;
     width: 34.1%;
-    top: 28%;
+    top: 35%;
 }
 
 #page_function4_text_title {
