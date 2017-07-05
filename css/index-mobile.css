@@ -339,26 +339,27 @@
         bottom: 59.4%;
     }
     #page_function4_table_time_01 {
-        left: 5%;
-        bottom: 81%;
+        left: 8%;
+        bottom: 61%;
     }
     #page_function4_table_time_02 {
-        left: 24.7%;
-        bottom: 69.5%;
+        left: 26.7%;
+        bottom: 49.5%;
     }
     #page_function4_table_time_03 {
-        left: 43.5%;
-        bottom: 60%;
+        left: 46%;
+        bottom: 40%;
     }
     #page_function4_table_time_04 {
-        left: 61.7%;
-        bottom: 102%;
+        left: 64.7%;
+        bottom: 80%;
     }
     #page_function4_table_time_05 {
-        left: 81.2%;
-        bottom: 77.3%;
+        left: 84%;
+        bottom: 57.3%;
     }
 }
+
 
 @media (orientation:portrait) and (max-width:640pt) and (max-width:320px) {
     body {
