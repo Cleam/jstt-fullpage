@@ -648,11 +648,11 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
             P = g.getElementById('page_function4_table_column_03'),
             Q = g.getElementById('page_function4_table_column_04'),
             R = g.getElementById('page_function4_table_column_05'),
-            S = g.getElementById('page_function4_table_face_01'),
-            T = g.getElementById('page_function4_table_face_02'),
-            U = g.getElementById('page_function4_table_face_03'),
-            V = g.getElementById('page_function4_table_face_04'),
-            W = g.getElementById('page_function4_table_face_05'),
+//          S = g.getElementById('page_function4_table_face_01'),
+//          T = g.getElementById('page_function4_table_face_02'),
+//          U = g.getElementById('page_function4_table_face_03'),
+//          V = g.getElementById('page_function4_table_face_04'),
+//          W = g.getElementById('page_function4_table_face_05'),
             Z = g.getElementById('page_function4_table_time_01'),
             aa = g.getElementById('page_function4_table_time_02'),
             ab = g.getElementById('page_function4_table_time_03'),
@@ -816,7 +816,7 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
                 b();
                 var aN = g.getElementById('page_function4');
                 aN.style.display = 'block';
-                aA([Z, aa, ab, ac, ad, S, T, U, V, W, N, O, P, Q, R, M, Y, X]);
+                aA([Z, aa, ab, ac, ad, N, O, P, Q, R, M, Y, X]);
                 if (GLOBAL.DEVICE_TYPE) {
                     M.classList.add('animateMobileFunction4BackgroundIn');
                 } else {
@@ -856,11 +856,6 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
                     }, 300);
                 }
                 setTimeout(function() {
-                    S.classList.add('animateFunction4FaceIn');
-                    T.classList.add('animateFunction4FaceIn');
-                    U.classList.add('animateFunction4FaceIn');
-                    V.classList.add('animateFunction4FaceIn');
-                    W.classList.add('animateFunction4FaceIn');
                     Z.classList.add('animateFunction4TimeIn');
                     aa.classList.add('animateFunction4TimeIn');
                     ab.classList.add('animateFunction4TimeIn');
@@ -1022,17 +1017,8 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
             }
 
             function aG() {
-                aA([Z, aa, ab, ac, ad, S, T, U, V, W, N, O, P, Q, R, M, Y, X]);
+                aA([Z, aa, ab, ac, ad, N, O, P, Q, R, M, Y, X]);
                 Z.classList.add('animateFunction4TimeOut');
-                S.classList.add('animateFunction4FaceOut');
-                aa.classList.add('animateFunction4TimeOut');
-                T.classList.add('animateFunction4FaceOut');
-                ab.classList.add('animateFunction4TimeOut');
-                U.classList.add('animateFunction4FaceOut');
-                ac.classList.add('animateFunction4TimeOut');
-                V.classList.add('animateFunction4FaceOut');
-                ad.classList.add('animateFunction4TimeOut');
-                W.classList.add('animateFunction4FaceOut');
                 N.classList.add('animateFunction4ColumnOut');
                 O.classList.add('animateFunction4ColumnOut');
                 P.classList.add('animateFunction4ColumnOut');

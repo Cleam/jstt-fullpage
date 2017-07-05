@@ -2665,29 +2665,6 @@
     background-image: url("../images/logo279486.png");
 }
 
-#nav_iPhone_img {
-    background-image: url("../images/nav279486.png");
-    background-size: 108px 172px;
-}
-
-#nav_android_img {
-    background-image: url("../images/nav279486.png");
-    background-size: 108px 172px;
-    background-position: 0 -21px;
-}
-
-#nav_QRCode_img {
-    background-image: url("../images/nav279486.png");
-    background-size: 108px 172px;
-    background-position: 0 -44px;
-}
-
-#nav_QRCode_hover_img {
-    background-image: url("../images/nav279486.png");
-    background-size: 108px 172px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-}
 
 #arrow_right_height {
     background-image: url("../images/ui2761ce.png");
@@ -2934,7 +2911,7 @@
 #page_function4_table_time_05 {
     background-image: url("../images/function2788ec.png");
     background-size: 594.1% 2105.3%;
-    background-position: 100% 24.4%;
+    background-position: 100% 24%;
 }
 
 #page_download_mobile_iPhone {
@@ -3005,26 +2982,6 @@ screen and (min-device-width:1366px) {
     #logo {
         background-image: url("../images/logo279486.png");
     }
-    #nav_iPhone_img {
-        background-image: url("../images/nav279486.png");
-        background-size: 108px 172px;
-    }
-    #nav_android_img {
-        background-image: url("../images/nav279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -21px;
-    }
-    #nav_QRCode_img {
-        background-image: url("../images/nav279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -44px;
-    }
-    #nav_QRCode_hover_img {
-        background-image: url("../images/nav279486.png");
-        background-size: 108px 172px;
-        background-position: 0 100%;
-        background-repeat: no-repeat;
-    }
     #arrow_right_height {
         background-image: url("../images/ui_2x2761ce.png");
         background-size: 738.1% 284.0%;
@@ -3048,11 +3005,11 @@ screen and (min-device-width:1366px) {
         background-position: 0 -21px;
     }
     #page_function1_book_page1 {
-        background-image: url("../images/function1_book_page1_2x2761ce.jpg");
+        background-image: url("../images/function1_book_page1_4x2761ce.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page2 {
-        background-image: url("../images/function1_book_page2_2x2761ce.jpg");
+        background-image: url("../images/function1_book_page2_2x2761ce1.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page3 {
@@ -3227,7 +3184,7 @@ screen and (min-device-width:1366px) {
     #page_function4_table_time_05 {
         background-image: url("../images/function_2x2788ec.png");
         background-size: 594.1% 2105.3%;
-        background-position: 100% 24.4%;
+        background-position: 100% 24%;
     }
     #page_download_mobile_iPhone {
         background-image: url("../images/ui_2x2761ce.png");
@@ -3296,26 +3253,6 @@ screen and (min-device-pixel-ratio:1.5) {
     #logo {
         background-image: url("../images/logo_2x279486.png");
     }
-    #nav_iPhone_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-    }
-    #nav_android_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -21px;
-    }
-    #nav_QRCode_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -44px;
-    }
-    #nav_QRCode_hover_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 100%;
-        background-repeat: no-repeat;
-    }
     #arrow_right_height {
         background-image: url("../images/ui_2x2761ce.png");
         background-size: 738.1% 284.0%;
@@ -3339,11 +3276,11 @@ screen and (min-device-pixel-ratio:1.5) {
         background-position: 0 -21px;
     }
     #page_function1_book_page1 {
-        background-image: url("../images/function1_book_page1_2x2761ce.jpg");
+        background-image: url("../images/function1_book_page1_4x2761ce.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page2 {
-        background-image: url("../images/function1_book_page2_2x2761ce.jpg");
+        background-image: url("../images/function1_book_page2_2x2761ce1.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page3 {
@@ -3518,7 +3455,7 @@ screen and (min-device-pixel-ratio:1.5) {
     #page_function4_table_time_05 {
         background-image: url("../images/function_2x2788ec.png");
         background-size: 594.1% 2105.3%;
-        background-position: 100% 24.4%;
+        background-position: 100% 24%;
     }
     #page_download_mobile_iPhone {
         background-image: url("../images/ui_2x2761ce.png");
@@ -3587,28 +3524,6 @@ screen and (min-device-pixel-ratio:1.5) and (min-device-width:1366px) {
     #logo {
         background-image: url("../images/logo_2x279486.png");
     }
-    #nav_iPhone_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-    }
-    #nav_android_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -21px;
-        cursor: pointer;
-    }
-    #nav_QRCode_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -44px;
-        cursor: pointer;
-    }
-    #nav_QRCode_hover_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 100%;
-        background-repeat: no-repeat;
-    }
     #arrow_right_height {
         background-image: url("../images/ui_4x2761ce.png");
         background-size: 738.1% 284.0%;
@@ -3636,7 +3551,7 @@ screen and (min-device-pixel-ratio:1.5) and (min-device-width:1366px) {
         background-size: 100% 100%;
     }
     #page_function1_book_page2 {
-        background-image: url("../images/function1_book_page2_4x2761ce.jpg");
+        background-image: url("../images/function1_book_page2_4x2761ce1.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page3 {
@@ -3811,7 +3726,7 @@ screen and (min-device-pixel-ratio:1.5) and (min-device-width:1366px) {
     #page_function4_table_time_05 {
         background-image: url("../images/function_4x2788ec.png");
         background-size: 594.1% 2105.3%;
-        background-position: 100% 24.4%;
+        background-position: 100% 24%;
     }
     #page_download_mobile_iPhone {
         background-image: url("../images/ui_4x2761ce.png");
@@ -3880,26 +3795,6 @@ screen and (min-device-pixel-ratio:3) {
     #logo {
         background-image: url("../images/logo_2x279486.png");
     }
-    #nav_iPhone_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-    }
-    #nav_android_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -21px;
-    }
-    #nav_QRCode_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 -44px;
-    }
-    #nav_QRCode_hover_img {
-        background-image: url("../images/nav_2x279486.png");
-        background-size: 108px 172px;
-        background-position: 0 100%;
-        background-repeat: no-repeat;
-    }
     #arrow_right_height {
         background-image: url("../images/ui_4x2761ce.png");
         background-size: 738.1% 284.0%;
@@ -3927,7 +3822,7 @@ screen and (min-device-pixel-ratio:3) {
         background-size: 100% 100%;
     }
     #page_function1_book_page2 {
-        background-image: url("../images/function1_book_page2_4x2761ce.jpg");
+        background-image: url("../images/function1_book_page2_4x2761ce1.jpg");
         background-size: 100% 100%;
     }
     #page_function1_book_page3 {
@@ -4102,7 +3997,7 @@ screen and (min-device-pixel-ratio:3) {
     #page_function4_table_time_05 {
         background-image: url("../images/function_4x2788ec.png");
         background-size: 594.1% 2105.3%;
-        background-position: 100% 24.4%;
+        background-position: 100% 24%;
     }
     #page_download_mobile_iPhone {
         background-image: url("../images/ui_4x2761ce.png");
@@ -4218,95 +4113,33 @@ img {
     display: none;
 }
 
-#nav_iPhone {
-    position: fixed;
-    z-index: 1000;
-    width: 124px;
-    height: 34px;
-    border-radius: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    top: 22px;
-    right: 340px;
-    opacity: 0;
-}
 
-#nav_iPhone_img {
-    position: absolute;
-    left: 16px;
-    top: 7px;
-    width: 93px;
-    height: 21px;
-    cursor: pointer;
-}
 
-#nav_android {
-    position: fixed;
-    z-index: 1000;
-    width: 124px;
-    height: 34px;
-    border-radius: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    top: 22px;
-    right: 196px;
-    opacity: 0;
-}
 
-#nav_android_img {
-    position: absolute;
-    left: 17px;
-    top: 6px;
-    width: 93px;
-    height: 23px;
-    cursor: pointer;
-}
 
 #nav_QRCode {
     position: fixed;
     z-index: 1000;
-    width: 124px;
+    width: 114px;
     height: 34px;
     border-radius: 40px;
     border: 1px solid rgba(255, 255, 255, 0.6);
     top: 22px;
+    text-align: center;
     right: 52px;
     opacity: 0;
-}
-
-#nav_QRCode_img {
-    position: absolute;
-    left: 17px;
-    top: 7px;
-    width: 93px;
-    height: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
     cursor: pointer;
+    background-image: url(../images/logo-icon.png);
+    background-position: 400% 80%;
+    background-size: 80%;
 }
 
-#nav_QRCode_hover {
-    cursor: default;
-    top: 25px;
-    left: -1px;
-    padding-top: 40px;
-    margin-top: -40px;
-    right: -1px;
-    position: absolute;
-    display: none;
-    background: url(about:blank);
-    opacity: 0;
-}
 
-#nav_QRCode_hover_border {
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    width: 108px;
-    height: 108px;
-    padding: 8px;
-}
-
-#nav_QRCode_hover_img {
-    width: 108px;
-    height: 108px;
-    position: absolute;
-    opacity: 1;
-}
 
 #background {
     position: fixed;
@@ -4424,6 +4257,7 @@ img {
     font-family: title;
     color: white;
     font-size: 180%;
+    font-weight: inherit;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
     text-rendering: geometricPrecision;
@@ -4434,7 +4268,8 @@ img {
     margin-top: 16px;
     font-family: text;
     color: white;
-    font-size: 130%;
+    font-size: 100%;
+    font-weight: inherit;
     line-height: 175%;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
@@ -4492,10 +4327,11 @@ img {
 #page_function1_skin {
     position: absolute;
     bottom: 10%;
-    width: 84.7%;
+    width: 90%;
     height: 6.4%;
-    left: 10%;
+    left: 15%;
     opacity: 0;
+    color: #cccac7;
 }
 
 #page_function1_skin_icon {
@@ -4564,6 +4400,7 @@ img {
     font-size: 180%;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
+    font-weight: inherit;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
 }
@@ -4572,7 +4409,8 @@ img {
     margin-top: 16px;
     font-family: text;
     color: white;
-    font-size: 130%;
+    font-weight: inherit;
+    font-size: 90%;
     line-height: 175%;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
@@ -4619,8 +4457,8 @@ img {
 
 #page_function2_face_main {
     position: absolute;
-    width: 10.7%;
-    height: 60.4%;
+    width: 10.9%;
+    height: 61.4%;
     left: 44.8%;
     opacity: 0;
 }
@@ -4629,7 +4467,7 @@ img {
     position: absolute;
     width: 23.5%;
     height: 23.1%;
-    left: 38.2%;
+    left: 43.2%;
     top: 78.0%;
     opacity: 0;
 }
@@ -4723,6 +4561,7 @@ img {
     font-family: title;
     color: white;
     font-size: 180%;
+    font-weight: inherit;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
     text-rendering: geometricPrecision;
@@ -4733,7 +4572,8 @@ img {
     margin-top: 16px;
     font-family: text;
     color: white;
-    font-size: 130%;
+    font-size: 100%;
+    font-weight: inherit;
     line-height: 175%;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
@@ -4830,13 +4670,14 @@ img {
     position: absolute;
     left: 15%;
     width: 34.1%;
-    top: 25%;
+    top: 35%;
 }
 
 #page_function4_text_title {
     font-family: title;
     color: white;
     font-size: 180%;
+    font-weight: inherit;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
     text-rendering: geometricPrecision;
@@ -4847,7 +4688,8 @@ img {
     margin-top: 16px;
     font-family: text;
     color: white;
-    font-size: 130%;
+    font-size: 100%;
+    font-weight: inherit;
     line-height: 175%;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
@@ -4992,8 +4834,8 @@ img {
     position: absolute;
     width: 11.5%;
     height: 4.4%;
-    left: 13.3%;
-    bottom: 80%;
+    left: 17.3%;
+    bottom: 60%;
     opacity: 0;
 }
 
@@ -5001,8 +4843,8 @@ img {
     position: absolute;
     width: 10.1%;
     height: 4.4%;
-    left: 30.0%;
-    bottom: 70.5%;
+    left: 33.5%;
+    bottom: 50.5%;
     opacity: 0;
 }
 
@@ -5010,8 +4852,8 @@ img {
     position: absolute;
     width: 10.1%;
     height: 4.4%;
-    left: 46.0%;
-    bottom: 58%;
+    left: 49.5%;
+    bottom: 39%;
     opacity: 0;
 }
 
@@ -5019,8 +4861,8 @@ img {
     position: absolute;
     width: 11.4%;
     height: 4.4%;
-    left: 61.5%;
-    bottom: 99%;
+    left: 65%;
+    bottom: 80%;
     opacity: 0;
 }
 
@@ -5028,9 +4870,42 @@ img {
     position: absolute;
     width: 11.4%;
     height: 4.4%;
-    left: 77.4%;
-    bottom: 76.9%;
+    left: 81%;
+    bottom: 56.9%;
     opacity: 0;
+}
+@media (min-width:640px) and (max-width:4096px) {
+	#page_download {
+	    background-color: #1a1d3e;
+	    background-image: url(../images/bg-1.png);
+	    background-size: auto 90%;
+	    background-repeat: no-repeat;
+	}
+	#page_function1 {
+	    background-color: #1a1d3e;
+	    background-image: url(../images/bg-2.png);
+	    background-size: auto 90%;
+	    background-repeat: no-repeat;
+	}
+	#page_function2 {
+	    background-color: #1a1d3e;
+	    background-image: url(../images/bg-3.png);
+	    background-size: auto 90%;
+	    background-repeat: no-repeat;
+	}
+	
+	#page_function3 {
+	    background-color: #1a1d3e;
+	    background-image: url(../images/bg-4.png);
+	    background-size: auto 90%;
+	    background-repeat: no-repeat;
+	}
+	#page_function4 {
+	    background-color: #1a1d3e;
+	    background-image: url(../images/bg-5.png);
+	    background-size: auto 90%;
+	    background-repeat: no-repeat;
+	}
 }
 
 @media (min-width:480px) and (max-width:600px) {
