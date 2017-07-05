@@ -2679,7 +2679,7 @@
 }
 
 #page_download_hand {
-    background-image: url("../images/download_hand2740d2.png");
+    /*background-image: url("../images/download_hand2740d2.png");*/
 }
 
 #page_download_pc_iPhone {
@@ -2993,7 +2993,7 @@ screen and (min-device-width:1366px) {
         background-position: 0 97%;
     }
     #page_download_hand {
-        background-image: url("../images/download_hand_2x2740d2.png");
+        /*background-image: url("../images/download_hand_2x2740d2.png");*/
     }
     #page_download_pc_iPhone {
         background-image: url("../images/nav279486.png");
@@ -3264,7 +3264,7 @@ screen and (min-device-pixel-ratio:1.5) {
         background-position: 0 97%;
     }
     #page_download_hand {
-        background-image: url("../images/download_hand_2x2740d2.png");
+        /*background-image: url("../images/download_hand_2x2740d2.png");*/
     }
     #page_download_pc_iPhone {
         background-image: url("../images/nav_2x279486.png");
@@ -3535,7 +3535,7 @@ screen and (min-device-pixel-ratio:1.5) and (min-device-width:1366px) {
         background-position: 0 97%;
     }
     #page_download_hand {
-        background-image: url("../images/download_hand_4x2740d2.png");
+        /*background-image: url("../images/download_hand_4x2740d2.png");*/
     }
     #page_download_pc_iPhone {
         background-image: url("../images/nav_2x279486.png");
@@ -3806,7 +3806,7 @@ screen and (min-device-pixel-ratio:3) {
         background-position: 0 97%;
     }
     #page_download_hand {
-        background-image: url("../images/download_hand_4x2740d2.png");
+        /*background-image: url("../images/download_hand_4x2740d2.png");*/
     }
     #page_download_pc_iPhone {
         background-image: url("../images/nav_2x279486.png");
@@ -4203,8 +4203,9 @@ img {
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 100%;
-    left: -5%;
-    bottom: -22%;
+    left: 10%;
+    bottom: 0;
+    top: 11%;
     width: 44%;
     opacity: 0;
 }

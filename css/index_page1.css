@@ -1,0 +1,711 @@
+@charset "utf-8";
+#page_download {
+    background-color: #1A1D3E;
+}
+em, i {
+    font-style: normal;
+}
+.page1-wrap {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    width: 50%;
+    height: 84%;
+}
+
+.page1-wrap .left {
+    position: absolute;
+    left: 0;
+    width: 800px;
+    height: 100%;
+}
+
+.act-users {
+    color: #fff;
+}
+.act-users-title {
+    font-weight: 400;
+    font-size: 24px;
+}
+.zero {
+    background-position: 0 0;
+}
+.one {
+    background-position: 0 -50px;
+}
+.two {
+    background-position: 0 -100px;
+}
+.three {
+    background-position: 0 -150px;
+}
+.four {
+    background-position: 0 -200px;
+}
+.five {
+    background-position: 0 -250px;
+}
+.six {
+    background-position: 0 -300px;
+}
+.seven {
+    background-position: 0 -350px;
+}
+.eight {
+    background-position: 0 -400px;
+}
+.nine {
+    background-position: 0 -450px;
+}
+.comma {
+    background: url('../images/page1/comma.png') no-repeat left bottom;
+}
+
+.act-users-num {
+    font-size: 0;
+    color: #FFED00;
+    margin-top: 1%;
+}
+.act-users-num span {
+    display: inline-block;
+    font-size: 30px;
+    text-indent: -999em;
+    width: 32px;
+    height: 54px;
+    background: url('../images/page1/number_bg.png') no-repeat center;
+    background-size: 32px 54px;
+    margin-right: 0.8%;
+}
+.act-users-num span i {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.act-users-num span i.an {
+    background: url('../images/page1/number3.png') no-repeat center;
+}
+.act-users-num span.comma-wrap {
+    background: none;
+    width: 20px;
+}
+/* 1 */
+.act-users-num span i.an1 {
+    background-position: 0 -50px;
+    -webkit-animation: run1 1.5s steps(1) 1;
+    animation: run1 1.5s steps(1) 1;
+}
+/* 2 */
+.act-users-num span i.an2 {
+    background-position: 0 -100px;
+    -webkit-animation: run2 1.5s steps(2) 1;
+    animation: run2 1.5s steps(2) 1;
+}
+/* 3 */
+.act-users-num span i.an3 {
+    background-position: 0 -150px;
+    -webkit-animation: run3 1.5s steps(3) 1;
+    animation: run3 1.5s steps(3) 1;
+}
+/* 4 */
+.act-users-num span i.an4 {
+    background-position: 0 -200px;
+    -webkit-animation: run4 1.5s steps(4) 1;
+    animation: run4 1.5s steps(4) 1;
+}
+/* 5 */
+.act-users-num span i.an5 {
+    background-position: 0 -250px;
+    -webkit-animation: run5 1.5s steps(5) 1;
+    animation: run5 1.5s steps(5) 1;
+}
+/* 6 */
+.act-users-num span i.an6 {
+    background-position: 0 -300px;
+    -webkit-animation: run6 1.5s steps(6) 1;
+    animation: run6 1.5s steps(6) 1;
+}
+/* 7 */
+.act-users-num span i.an7 {
+    background-position: 0 -350px;
+    -webkit-animation: run7 1.5s steps(7) 1;
+    animation: run7 1.5s steps(7) 1;
+}
+/* 8 */
+.act-users-num span i.an8 {
+    background-position: 0 -400px;
+    -webkit-animation: run8 1.5s steps(8) 1;
+    animation: run8 1.5s steps(8) 1;
+}
+/* 9 */
+.act-users-num span i.an9 {
+    background-position: 0 -450px;
+    -webkit-animation: run9 1.5s steps(9) 1;
+    animation: run9 1.5s steps(9) 1;
+}
+@-webkit-keyframes run1 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -50px; }
+}
+@keyframes run1 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -50px; }
+}
+@-webkit-keyframes run2 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -100px; }
+}
+@keyframes run2 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -100px; }
+}
+@-webkit-keyframes run3 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -150px; }
+}
+@keyframes run3 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -150px; }
+}
+@-webkit-keyframes run4 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -200px; }
+}
+@keyframes run4 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -200px; }
+}
+@-webkit-keyframes run5 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -250px; }
+}
+@keyframes run5 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -250px; }
+}
+@-webkit-keyframes run6 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -300px; }
+}
+@keyframes run6 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -300px; }
+}
+@-webkit-keyframes run7 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -350px; }
+}
+@keyframes run7 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -350px; }
+}
+@-webkit-keyframes run8 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -400px; }
+}
+@keyframes run8 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -400px; }
+}
+@-webkit-keyframes run9 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -450px; }
+}
+@keyframes run9 {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -450px; }
+}
+
+.bar-map-wrap {
+    position: relative;
+    color: #fff;
+    display: flex;
+    margin-top: 2%;
+}
+.prov-bar-wrap {
+    margin-top: 18%;
+    flex: 0 0 242px;
+    width: 242px;
+    /*height: 400px;*/
+}
+.prov-bar-wrap > p {
+    font-size: 12px;
+    padding-left: 21px;
+}
+.prov-bar {
+    font-size: 0;
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 18px;
+}
+.prov-bar .txt {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 14px;
+    width: 50px;
+}
+.prov-bar .bar-wrap {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    vertical-align: top;
+    width: 180px;
+    height: 100%;
+}
+.prov-bar .bar-wrap i {
+    display: inline-block;
+    height: 10px;
+    color: #edd300;
+    font-size: 14px;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.prov-bar .bar-wrap .bar {
+    display: inline-block;
+    height: 100%;
+    background-color: #01E9FF;
+}
+.prov-bar:nth-of-type(1) .bar-wrap .bar {
+    width: 75.2%;
+    -webkit-animation: barrun1 1.5s 1;
+    animation: barrun1 1.5s 1;
+}
+@-webkit-keyframes barrun1 {
+    0% { width: 0;}
+    100% { width: 75.2%;}
+}
+@keyframes barrun1 {
+    0% { width: 0;}
+    100% { width: 75.2%;}
+}
+
+.prov-bar:nth-of-type(2) .bar-wrap .bar {
+    width: 64.04%;
+    -webkit-animation: barrun2 1.5s 1;
+    animation: barrun2 1.5s 1;
+}
+@-webkit-keyframes barrun2 {
+    0% { width: 0;}
+    100% { width: 64.04%;}
+}
+@keyframes barrun2 {
+    0% { width: 0;}
+    100% { width: 64.04%;}
+}
+
+.prov-bar:nth-of-type(3) .bar-wrap .bar {
+    width: 40.24%;
+    -webkit-animation: barrun3 1.5s 1;
+    animation: barrun3 1.5s 1;
+}
+@-webkit-keyframes barrun3 {
+    0% { width: 0;}
+    100% { width: 40.24%;}
+}
+@keyframes barrun3 {
+    0% { width: 0;}
+    100% { width: 40.24%;}
+}
+
+.prov-bar:nth-of-type(4) .bar-wrap .bar {
+    width: 29.2%;
+    -webkit-animation: barrun4 1.5s 1;
+    animation: barrun4 1.5s 1;
+}
+@-webkit-keyframes barrun4 {
+    0% { width: 0;}
+    100% { width: 29.2%;}
+}
+@keyframes barrun4 {
+    0% { width: 0;}
+    100% { width: 29.2%;}
+}
+
+.prov-bar:nth-of-type(5) .bar-wrap .bar {
+    width: 23.84%;
+    -webkit-animation: barrun5 1.5s 1;
+    animation: barrun5 1.5s 1;
+}
+@-webkit-keyframes barrun5 {
+    0% { width: 0;}
+    100% { width: 23.84%;}
+}
+@keyframes barrun5 {
+    0% { width: 0;}
+    100% { width: 23.84%;}
+}
+
+.prov-bar:nth-of-type(6) .bar-wrap .bar {
+    width: 23.5%;
+    -webkit-animation: barrun6 1.5s 1;
+    animation: barrun6 1.5s 1;
+}
+@-webkit-keyframes barrun6 {
+    0% { width: 0;}
+    100% { width: 23.5%;}
+}
+@keyframes barrun6 {
+    0% { width: 0;}
+    100% { width: 23.5%;}
+}
+
+.prov-bar:nth-of-type(7) .bar-wrap .bar {
+    width: 22.76%;
+    -webkit-animation: barrun7 1.5s 1;
+    animation: barrun7 1.5s 1;
+}
+@-webkit-keyframes barrun7 {
+    0% { width: 0;}
+    100% { width: 22.76%;}
+}
+@keyframes barrun7 {
+    0% { width: 0;}
+    100% { width: 22.76%;}
+}
+
+.prov-bar:nth-of-type(8) .bar-wrap .bar {
+    width: 22.6%;
+    -webkit-animation: barrun8 1.5s 1;
+    animation: barrun8 1.5s 1;
+}
+@-webkit-keyframes barrun8 {
+    0% { width: 0;}
+    100% { width: 22.6%;}
+}
+@keyframes barrun8 {
+    0% { width: 0;}
+    100% { width: 22.6%;}
+}
+
+.prov-bar:nth-of-type(9) .bar-wrap .bar {
+    width: 18.46%;
+    -webkit-animation: barrun9 1.5s 1;
+    animation: barrun9 1.5s 1;
+}
+@-webkit-keyframes barrun9 {
+    0% { width: 0;}
+    100% { width: 18.46%;}
+}
+@keyframes barrun9 {
+    0% { width: 0;}
+    100% { width: 18.46%;}
+}
+
+.prov-bar:nth-of-type(10) .bar-wrap .bar {
+    width: 15.86%;
+    -webkit-animation: barrun10 1.5s 1;
+    animation: barrun10 1.5s 1;
+}
+@-webkit-keyframes barrun10 {
+    0% { width: 0;}
+    100% { width: 15.86%;}
+}
+@keyframes barrun10 {
+    0% { width: 0;}
+    100% { width: 15.86%;}
+}
+
+.prov-bar:nth-of-type(11) .bar-wrap .bar {
+    width: 13.1%;
+    -webkit-animation: barrun11 1.5s 1;
+    animation: barrun11 1.5s 1;
+}
+@-webkit-keyframes barrun11 {
+    0% { width: 0;}
+    100% { width: 13.1%;}
+}
+@keyframes barrun11 {
+    0% { width: 0;}
+    100% { width: 13.1%;}
+}
+
+.prov-bar:nth-of-type(12) .bar-wrap .bar {
+    width: 9.62%;
+    -webkit-animation: barrun12 1.5s 1;
+    animation: barrun12 1.5s 1;
+}
+@-webkit-keyframes barrun12 {
+    0% { width: 0;}
+    100% { width: 9.62%;}
+}
+@keyframes barrun12 {
+    0% { width: 0;}
+    100% { width: 9.62%;}
+}
+
+.prov-bar:nth-of-type(13) .bar-wrap .bar {
+    width: 8.68%;
+    -webkit-animation: barrun13 1.5s 1;
+    animation: barrun13 1.5s 1;
+}
+@-webkit-keyframes barrun13 {
+    0% { width: 0;}
+    100% { width: 8.68%;}
+}
+@keyframes barrun13 {
+    0% { width: 0;}
+    100% { width: 8.68%;}
+}
+
+.map-wrap {
+    flex: 1;
+    position: relative;
+    margin-top: 4%;
+}
+
+.map-wrap .map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 491px;
+    height: 501px;
+    background: url('../images/page1/map.png') no-repeat center;
+    background-size: 491px 501px;
+}
+.map .dot {
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+.map .dot em {
+    position: absolute;
+    bottom: -25px;
+    left: -5px;
+    right: 0;
+    width: 30px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #fcff00;
+}
+/* 南京 */
+.map .dot1 {
+    left: 200px;
+    top: 340px;
+    width: 20px;
+    height: 20px;
+}
+/* 扬州 */
+.map .dot2 {
+    left: 265px;
+    top: 255px;
+}
+/* 南通 */
+.map .dot3 {
+    left: 390px;
+    top: 320px;
+}
+/* 无锡 */
+.map .dot4 {
+    z-index: 100;
+    left: 320px;
+    top: 410px;
+}
+/* 苏州 */
+.map .dot5 {
+    left: 360px;
+    top: 430px;
+}
+.map .dot .dot-center {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fcff00;
+    border-radius: 50%;
+}
+.map .dot .dot-center:before,
+.map .dot .dot-center:after,
+.map .dot:before,
+.map .dot:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: '';
+    border: 1px solid #fcff00;
+    border-radius: 50%;
+}
+.map .dot .dot-center:before {
+    -webkit-animation: breathe 4s 1s infinite;
+    animation: breathe 4s 1s infinite;
+}
+.map .dot .dot-center:after {
+    -webkit-animation: breathe 4s 2s infinite;
+    animation: breathe 4s 2s infinite;
+}
+.map .dot:before {
+    -webkit-animation: breathe 4s 3s infinite;
+    animation: breathe 4s 3s infinite;
+}
+.map .dot:after {
+    -webkit-animation: breathe 4s infinite;
+    animation: breathe 4s infinite;
+}
+
+@-webkit-keyframes breathe {
+    0% {transform: scale(1); opacity: 1;}
+    100% {transform: scale(2); opacity: 0;}
+}
+@keyframes breathe {
+    0% {transform: scale(1); opacity: 1;}
+    100% {transform: scale(2); opacity: 0;}
+}
+
+.map .dot .hover {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    left: 25px;
+    top: 10px;
+    width: 118px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px 10px 10px 25px;
+    border-radius: 5px;
+}
+.map .dot1 .hover {
+    left: 30px;
+    top: 20px;
+}
+.map .dot .hover:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fcff00;
+}
+
+
+.page1-wrap .right {
+    margin-left: 800px;
+}
+
+.right {
+    color: #fff;
+    white-space: nowrap;
+}
+.right h2 {
+    font-weight: normal;
+    font-size: 60px;
+}
+.right p {
+    font-size: 53px;
+}
+
+/*@media (min-width:640px) and (max-width:4096px) {
+	#page_download_hand {
+	    left: 5%;
+	}
+}
+
+@media (min-width:480px) and (max-width:600px) {
+    #page_download_hand {
+	    left: 5%;
+	}
+}
+
+@media (min-width:600px) and (max-width:1024px) {
+    #page_download_hand {
+	    left: 5%;
+	}
+}
+
+@media (min-width:800px) and (max-width:1024px) {
+    #page_download_hand {
+	    left: 5%;
+	}
+}
+
+@media (min-width:1024px) and (max-width:1280px) {
+    #page_download_hand {
+	    left: 5%;
+	}
+}*/
+
+@media (max-width:1366px) {
+    #page_download_hand {
+	    left: 6%;
+	}
+    .act-users-title {
+        font-size: 20px;
+    }
+    .act-users-num span {
+        width: 30px;
+        height: 50px;
+        background: url('../images/page1/number_bg.png') no-repeat center;
+        background-size: 30px 50px;
+        margin-right: 0.6%;
+    }
+    .prov-bar-wrap {
+        margin-top: 15%;
+    }
+    .map-wrap {
+        margin-top: 2%;
+    }
+    .map-wrap .map {
+        width: 471px;
+        height: 481px;
+        background-size: 471px 481px;
+    }
+    /* 南京 */
+    .map .dot1 {
+        left: 186px;
+        top: 320px;
+        width: 18px;
+        height: 18px;
+    }
+    /* 扬州 */
+    .map .dot2 {
+        left: 258px;
+        top: 244px;
+    }
+    /* 南通 */
+    .map .dot3 {
+        left: 380px;
+        top: 310px;
+    }
+    /* 无锡 */
+    .map .dot4 {
+        left: 315px;
+        top: 395px;
+    }
+    /* 苏州 */
+    .map .dot5 {
+        left: 354px;
+        top: 410px;
+    }
+    #page_download_button_top,
+    #page_download_mobile_iPhone,
+    #page_download_mobile_android {
+        display: none !important;
+    }
+}
+
+/*@media (min-width:1366px) and (max-width:1440px) {
+
+}
+
+@media (min-width:1440px) and (max-width:1680px) {
+
+}
+
+@media (min-width:1680px) and (max-width:1921px) {
+
+}
+
+@media (min-width:1921px) and (max-width:2560px) {
+
+}
+
+@media (min-width:2560px) {
+
+}*/
