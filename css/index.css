@@ -2656,9 +2656,9 @@
 }
 
 #background {
-    background-image: url("../images/background2740d2.jpg");
+    /*background-image: url("../images/background2740d2.jpg");
     background-size: auto 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 #logo {
@@ -2975,9 +2975,9 @@ screen and (min-device-width:1366px) {
         background-image: url("../images/function4_table_background_2x2740d2.png");
     }
     #background {
-        background-image: url("../images/background2740d2.jpg");
+        /*background-image: url("../images/background2740d2.jpg");
         background-size: auto 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat;*/
     }
     #logo {
         background-image: url("../images/logo279486.png");
@@ -3246,9 +3246,9 @@ screen and (min-device-pixel-ratio:1.5) {
         background-image: url("../images/function4_table_background_2x2740d2.png");
     }
     #background {
-        background-image: url("../images/background2740d2.jpg");
+        /*background-image: url("../images/background2740d2.jpg");
         background-size: auto 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat;*/
     }
     #logo {
         background-image: url("../images/logo_2x279486.png");
@@ -3517,9 +3517,9 @@ screen and (min-device-pixel-ratio:1.5) and (min-device-width:1366px) {
         background-image: url("../images/function4_table_background_4x2740d2.png");
     }
     #background {
-        background-image: url("../images/background2740d2.jpg");
+        /*background-image: url("../images/background2740d2.jpg");
         background-size: auto 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat;*/
     }
     #logo {
         background-image: url("../images/logo_2x279486.png");
@@ -3788,9 +3788,9 @@ screen and (min-device-pixel-ratio:3) {
         background-image: url("../images/function4_table_background_4x2740d2.png");
     }
     #background {
-        background-image: url("../images/background2740d2.jpg");
+        /*background-image: url("../images/background2740d2.jpg");
         background-size: auto 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat;*/
     }
     #logo {
         background-image: url("../images/logo_2x279486.png");
@@ -4018,22 +4018,16 @@ screen and (min-device-pixel-ratio:3) {
 @font-face {
     font-family: download;
     *font-family: none;
-    src: url("fonts/SourceHanSansSC-Regular.eot");
-    src: url("fonts/SourceHanSansSC-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/SourceHanSansSC-Regular.woff") format("woff"), url("fonts/SourceHanSansSC-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: title;
     *font-family: none;
-    src: url("fonts/SourceHanSansSC-Normal.eot");
-    src: url("fonts/SourceHanSansSC-Normal.eot?#iefix") format("embedded-opentype"), url("fonts/SourceHanSansSC-Normal.woff") format("woff"), url("fonts/SourceHanSansSC-Normal.ttf") format("truetype");
 }
 
 @font-face {
     font-family: text;
     *font-family: none;
-    src: url("fonts/SourceHanSansSC-ExtraLight.eot");
-    src: url("fonts/SourceHanSansSC-ExtraLight.eot?#iefix") format("embedded-opentype"), url("fonts/SourceHanSansSC-ExtraLight.woff") format("woff"), url("fonts/SourceHanSansSC-ExtraLight.ttf") format("truetype");
 }
 
 * {
@@ -4134,9 +4128,7 @@ img {
     padding-left: 10px;
     box-sizing: border-box;
     cursor: pointer;
-    background-image: url(../images/logo-icon.png);
-    background-position: 400% 80%;
-    background-size: 80%;
+    text-decoration: none;
 }
 
 
@@ -4229,7 +4221,8 @@ img {
     text-align: left;
     line-height: 180%;
     color: white;
-    font-size: 260%;
+    font-size: 240%;
+    font-weight: inherit;
     position: absolute;
     top: 10%;
     left: 20%;
