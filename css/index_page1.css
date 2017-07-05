@@ -2,6 +2,11 @@
 #page_download_text > div {
     font-size: 80%;
 }
+#page_download_button_top,
+#page_download_mobile_iPhone,
+#page_download_mobile_android {
+    display: none !important;
+}
 em, i {
     font-style: normal;
 }
@@ -632,6 +637,52 @@ em, i {
 	}
 }*/
 
+@media (max-width:1024px) {
+    .act-users {
+        color: #fff;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .act-users-num {
+        margin-top: 2%;
+    }
+    .act-users-num span {
+        font-size: 26px;
+        width: 26px;
+        height: 40px;
+        background-size: 26px 40px;
+        margin-right: 1%;
+    }
+    .act-users-num span.comma-wrap {
+        width: 16px;
+        margin-left: -2%;
+    }
+    .prov-bar-wrap {
+	    margin-top: 12%;
+        flex: 0 0 50%;
+        width: 50%;
+	}
+    .prov-bar {
+        height: 14px;
+        line-height: 14px;
+        margin-bottom: 6%;
+    }
+    .prov-bar .txt {
+        vertical-align: top;
+        text-align: right;
+        margin-right: 4%;
+        font-size: 12px;
+        width: 38px;
+    }
+    .prov-bar .bar-wrap {
+        width: 66%;
+    }
+    .prov-bar .bar-wrap i {
+        font-size: 12px;
+        margin-left: 2%;
+    }
+}
+
 @media (min-width: 1024px) and (max-width:1366px) {
     #page_download_hand {
 	    left: 10%;
@@ -690,12 +741,6 @@ em, i {
 
     .prov-bar {
         margin-bottom: 5%;
-    }
-
-    #page_download_button_top,
-    #page_download_mobile_iPhone,
-    #page_download_mobile_android {
-        display: none !important;
     }
 }
 
