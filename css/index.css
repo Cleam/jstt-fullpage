@@ -4125,7 +4125,6 @@ img {
     font-size: 16px;
     color: #fff;
     padding-top: 5px;
-    padding-left: 10px;
     box-sizing: border-box;
     cursor: pointer;
     text-decoration: none;
@@ -4204,7 +4203,7 @@ img {
 
 #page_download_show {
     position: absolute;
-    top: 30%;
+    top: 40%;
     right: 15%;
     width: 38.7%;
 }
@@ -4212,7 +4211,6 @@ img {
 #page_download_show_top {
     position: absolute;
     width: 100%;
-    padding-bottom: 54.9%;
 }
 
 #page_download_text {
@@ -4225,7 +4223,7 @@ img {
     font-weight: inherit;
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 40%;
     opacity: 0;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     text-rendering: geometricPrecision;
@@ -4404,7 +4402,7 @@ img {
     font-family: text;
     color: white;
     font-weight: inherit;
-    font-size: 90%;
+    font-size: 100%;
     line-height: 175%;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     opacity: 0;
@@ -4878,26 +4876,26 @@ img {
 	#page_function1 {
 	    background-color: #1a1d3e;
 	    background-image: url(../images/bg-2.png);
-	    background-size: auto 90%;
+	    background-size: auto 100%;
 	    background-repeat: no-repeat;
 	}
 	#page_function2 {
 	    background-color: #1a1d3e;
 	    background-image: url(../images/bg-3.png);
-	    background-size: auto 90%;
+	    background-size: auto 120%;
 	    background-repeat: no-repeat;
 	}
 	
 	#page_function3 {
 	    background-color: #1a1d3e;
 	    background-image: url(../images/bg-4.png);
-	    background-size: auto 90%;
+	    background-size: auto 100%;
 	    background-repeat: no-repeat;
 	}
 	#page_function4 {
 	    background-color: #1a1d3e;
 	    background-image: url(../images/bg-5.png);
-	    background-size: auto 90%;
+	    background-size: auto 115%;
 	    background-repeat: no-repeat;
 	}
 }

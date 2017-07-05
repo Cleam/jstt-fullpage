@@ -461,7 +461,8 @@ em, i {
     width: 491px;
     height: 501px;
     background: url('../images/page1/map.png') no-repeat center;
-    background-size: 491px 501px;
+    /* background-size: 491px 501px; */
+    background-position-y: 10%;
 }
 .map .dot {
     position: absolute;
@@ -631,9 +632,9 @@ em, i {
 	}
 }*/
 
-@media (min-width: 1280px) and (max-width:1366px) {
+@media (min-width: 1024px) and (max-width:1366px) {
     #page_download_hand {
-	    left: 6%;
+	    left: 10%;
 	}
     .act-users-title {
         font-size: 20px;
@@ -646,7 +647,7 @@ em, i {
         margin-right: 0.6%;
     }
     .prov-bar-wrap {
-        margin-top: 15%;
+        margin-top: 10%;
         flex: 0 0 50%;
         width: 50%;
     }
@@ -656,34 +657,35 @@ em, i {
     .map-wrap .map {
         width: 471px;
         height: 481px;
-        background-size: 471px 481px;
+        background-size: 80%;
+        margin-left: -60px;
     }
     /* 南京 */
     .map .dot1 {
-        left: 186px;
-        top: 320px;
+        left: 196px;
+        top: 270px;
         width: 18px;
         height: 18px;
     }
     /* 扬州 */
     .map .dot2 {
         left: 258px;
-        top: 244px;
+        top: 214px;
     }
     /* 南通 */
     .map .dot3 {
-        left: 380px;
-        top: 310px;
+        left: 350px;
+        top: 260px;
     }
     /* 无锡 */
     .map .dot4 {
-        left: 315px;
-        top: 395px;
+        left: 300px;
+        top: 325px;
     }
     /* 苏州 */
     .map .dot5 {
-        left: 354px;
-        top: 410px;
+        left: 334px;
+        top: 340px;
     }
 
     .prov-bar {
