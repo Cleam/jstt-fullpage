@@ -669,7 +669,20 @@ em, i {
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 768px) {
+    #page_download_hand {
+        width: 94% !important;
+        top: 10% !important;
+    }
+    #page_download_show {
+        bottom: 0 !important;
+    }
+    .act-users {
+        text-align: center;
+    }
+}
+
+@media (max-width:414px) {
     .act-users {
         color: #fff;
         width: 90%;
@@ -795,9 +808,9 @@ em, i {
 
 @media (max-width: 375px) {
     .act-users-num span {
-        width: 29px;
-        height: 50px;
-        background-size: 29px 50px;
+        width: 26px;
+        height: 30px;
+        background-size: 26px 30px;
     }
     .map-wrap .map {
         left: -20%;
@@ -805,7 +818,7 @@ em, i {
     .prov-bar-wrap {
         margin-top: 15%;
     }
-    .act-users-num span i.an1,
+    /*.act-users-num span i.an1,
     .act-users-num span i.an2,
     .act-users-num span i.an3,
     .act-users-num span i.an4,
@@ -825,38 +838,201 @@ em, i {
     .act-users-num span i.an.eight,
     .act-users-num span i.an.nine {
         background-position-x: -1px;
+    }*/
+    .act-users-num span i.an.zero {
+        background-position: 0 0;
     }
+    .act-users-num span i.an.one {
+        background-position: 0 -30px;
+    }
+    .act-users-num span i.an.two {
+        background-position: 0 -60px;
+    }
+    .act-users-num span i.an.three {
+        background-position: 0 -90px;
+    }
+    .act-users-num span i.an.four {
+        background-position: 0 -120px;
+    }
+    .act-users-num span i.an.five {
+        background-position: 0 -150px;
+    }
+    .act-users-num span i.an.six {
+        background-position: 0 -180px;
+    }
+    .act-users-num span i.an.seven {
+        background-position: 0 -210px;
+    }
+    .act-users-num span i.an.eight {
+        background-position: 0 -240px;
+    }
+    .act-users-num span i.an.nine {
+        background-position: 0 -270px;
+    }
+    .act-users-num span i.an {
+        background-image: url(../images/page1/mobile_number2.png);
+        background-repeat: no-repeat;
+    }
+    /* 1 */
+    .act-users-num span i.an1 {
+        background-position: 0 -30px;
+        -webkit-animation: run1 1.5s steps(1) 1;
+        animation: run1 1.5s steps(1) 1;
+    }
+    /* 2 */
+    .act-users-num span i.an2 {
+        background-position: 0 -60px;
+        -webkit-animation: run2 1.5s steps(2) 1;
+        animation: run2 1.5s steps(2) 1;
+    }
+    /* 3 */
+    .act-users-num span i.an3 {
+        background-position: 0 -90px;
+        -webkit-animation: run3 1.5s steps(3) 1;
+        animation: run3 1.5s steps(3) 1;
+    }
+    /* 4 */
+    .act-users-num span i.an4 {
+        background-position: 0 -120px;
+        -webkit-animation: run4 1.5s steps(4) 1;
+        animation: run4 1.5s steps(4) 1;
+    }
+    /* 5 */
+    .act-users-num span i.an5 {
+        background-position: 0 -150px;
+        -webkit-animation: run5 1.5s steps(5) 1;
+        animation: run5 1.5s steps(5) 1;
+    }
+    /* 6 */
+    .act-users-num span i.an6 {
+        background-position: 0 -180px;
+        -webkit-animation: run6 1.5s steps(6) 1;
+        animation: run6 1.5s steps(6) 1;
+    }
+    /* 7 */
+    .act-users-num span i.an7 {
+        background-position: 0 -210px;
+        -webkit-animation: run7 1.5s steps(7) 1;
+        animation: run7 1.5s steps(7) 1;
+    }
+    /* 8 */
+    .act-users-num span i.an8 {
+        background-position: 0 -240px;
+        -webkit-animation: run8 1.5s steps(8) 1;
+        animation: run8 1.5s steps(8) 1;
+    }
+    /* 9 */
+    .act-users-num span i.an9 {
+        background-position: 0 -270px;
+        -webkit-animation: run9 1.5s steps(9) 1;
+        animation: run9 1.5s steps(9) 1;
+    }
+    @-webkit-keyframes run1 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -30px; }
+    }
+    @keyframes run1 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -30px; }
+    }
+    @-webkit-keyframes run2 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -60px; }
+    }
+    @keyframes run2 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -60px; }
+    }
+    @-webkit-keyframes run3 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -90px; }
+    }
+    @keyframes run3 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -90px; }
+    }
+    @-webkit-keyframes run4 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -120px; }
+    }
+    @keyframes run4 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -120px; }
+    }
+    @-webkit-keyframes run5 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -150px; }
+    }
+    @keyframes run5 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -150px; }
+    }
+    @-webkit-keyframes run6 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -180px; }
+    }
+    @keyframes run6 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -180px; }
+    }
+    @-webkit-keyframes run7 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -210px; }
+    }
+    @keyframes run7 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -210px; }
+    }
+    @-webkit-keyframes run8 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -240px; }
+    }
+    @keyframes run8 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -240px; }
+    }
+    @-webkit-keyframes run9 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -270px; }
+    }
+    @keyframes run9 {
+        0% { background-position: 0 0; }
+        100% { background-position: 0 -270px; }
+    }
+
+    .bar-map-wrap {
+        margin-top: 12%;
+    }
+
+    #page_download_show {
+        bottom: 2% !important;
+    }
+
+    .prov-bar .bar-wrap i {
+        font-size: 9px;
+    }
+
 }
 
 
 @media (max-width: 320px) {
-    .act-users-num span {
-        width: 24px;
-        height: 50px;
-        background-size: 24px 50px;
+    .act-users {
+        width: 96%;
     }
-    .act-users-num span i.an1,
-    .act-users-num span i.an2,
-    .act-users-num span i.an3,
-    .act-users-num span i.an4,
-    .act-users-num span i.an5,
-    .act-users-num span i.an6,
-    .act-users-num span i.an7,
-    .act-users-num span i.an8,
-    .act-users-num span i.an9,
-    .act-users-num span i.an.zero,
-    .act-users-num span i.an.one,
-    .act-users-num span i.an.two,
-    .act-users-num span i.an.three,
-    .act-users-num span i.an.four,
-    .act-users-num span i.an.five,
-    .act-users-num span i.an.six,
-    .act-users-num span i.an.seven,
-    .act-users-num span i.an.eight,
-    .act-users-num span i.an.nine {
-        background-position-x: -4px;
+    .prov-bar .txt {
+        margin-right: 2%;
+    }
+    .prov-bar .bar-wrap i {
+        font-size: 9px;
+        margin-left: 1%;
     }
     .bar-map-wrap {
         margin-top: 8%;
+    }
+    .prov-bar-wrap {
+        margin-top: 24%;
+    }
+    .map-wrap .map {
+        left: -30%;
     }
 }
