@@ -32,34 +32,34 @@ em, i {
     font-weight: 400;
     font-size: 24px;
 }
-.zero {
+.act-users-num span i.an.zero {
     background-position: 0 0;
 }
-.one {
+.act-users-num span i.an.one {
     background-position: 0 -50px;
 }
-.two {
+.act-users-num span i.an.two {
     background-position: 0 -100px;
 }
-.three {
+.act-users-num span i.an.three {
     background-position: 0 -150px;
 }
-.four {
+.act-users-num span i.an.four {
     background-position: 0 -200px;
 }
-.five {
+.act-users-num span i.an.five {
     background-position: 0 -250px;
 }
-.six {
+.act-users-num span i.an.six {
     background-position: 0 -300px;
 }
-.seven {
+.act-users-num span i.an.seven {
     background-position: 0 -350px;
 }
-.eight {
+.act-users-num span i.an.eight {
     background-position: 0 -400px;
 }
-.nine {
+.act-users-num span i.an.nine {
     background-position: 0 -450px;
 }
 .comma {
@@ -479,9 +479,10 @@ em, i {
 .map .dot em {
     position: absolute;
     bottom: -25px;
-    left: -5px;
     right: 0;
+    left: 50%;
     width: 30px;
+    margin-left: -15px;
     text-align: center;
     white-space: nowrap;
     font-size: 14px;
@@ -607,82 +608,6 @@ em, i {
     font-size: 53px;
 }
 
-/*@media (min-width:640px) and (max-width:4096px) {
-	#page_download_hand {
-	    left: 5%;
-	}
-}
-
-@media (min-width:480px) and (max-width:600px) {
-    #page_download_hand {
-	    left: 5%;
-	}
-}
-
-@media (min-width:600px) and (max-width:1024px) {
-    #page_download_hand {
-	    left: 5%;
-	}
-}
-
-@media (min-width:800px) and (max-width:1024px) {
-    #page_download_hand {
-	    left: 5%;
-	}
-}
-
-@media (min-width:1024px) and (max-width:1280px) {
-    #page_download_hand {
-	    left: 5%;
-	}
-}*/
-
-@media (max-width:1024px) {
-    .act-users {
-        color: #fff;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .act-users-num {
-        margin-top: 2%;
-    }
-    .act-users-num span {
-        font-size: 26px;
-        width: 26px;
-        height: 40px;
-        background-size: 26px 40px;
-        margin-right: 1%;
-    }
-    .act-users-num span.comma-wrap {
-        width: 16px;
-        margin-left: -2%;
-    }
-    .prov-bar-wrap {
-	    margin-top: 12%;
-        flex: 0 0 50%;
-        width: 50%;
-	}
-    .prov-bar {
-        height: 14px;
-        line-height: 14px;
-        margin-bottom: 6%;
-    }
-    .prov-bar .txt {
-        vertical-align: top;
-        text-align: right;
-        margin-right: 4%;
-        font-size: 12px;
-        width: 38px;
-    }
-    .prov-bar .bar-wrap {
-        width: 66%;
-    }
-    .prov-bar .bar-wrap i {
-        font-size: 12px;
-        margin-left: 2%;
-    }
-}
-
 @media (min-width: 1024px) and (max-width:1366px) {
     #page_download_hand {
 	    left: 10%;
@@ -744,22 +669,194 @@ em, i {
     }
 }
 
-/*@media (min-width:1366px) and (max-width:1440px) {
+@media (max-width:1024px) {
+    .act-users {
+        color: #fff;
+        width: 90%;
+        margin: 10% auto 0;
+    }
+    .act-users-num {
+        margin-top: 2%;
+    }
+    .act-users-num span {
+        font-size: 26px;
+        width: 32px;
+        height: 50px;
+        background: url(../images/page1/mobile_numberbg.png) no-repeat center;
+        background-size: 32px 50px;
+        margin-right: 1%;
+    }
+    /*.act-users-num span i.an {
+        background-image: url(../images/page1/mobile_number.png);
+        background-repeat: no-repeat;
+    }*/
+    .act-users-title {
+        font-size: 130%;
+    }
 
+    .act-users-num span.comma-wrap {
+        width: 16px;
+        margin-left: -2%;
+    }
+    .bar-map-wrap {
+        margin-top: 16%;
+    }
+    .prov-bar-wrap {
+	    margin-top: 12%;
+        flex: 0 0 44%;
+        width: 44%;
+	}
+    .prov-bar {
+        height: 8px;
+        line-height: 8px;
+        margin-bottom: 4%;
+    }
+    .prov-bar .txt {
+        vertical-align: top;
+        text-align: right;
+        margin-right: 4%;
+        font-size: 10px;
+        width: 32px;
+    }
+    .prov-bar-wrap > p {
+        font-size: 10px;
+        padding-left: 6%;
+    }
+    .prov-bar .bar-wrap {
+        width: 67%;
+    }
+    .prov-bar .bar-wrap i {
+        font-size: 10px;
+        margin-left: 2%;
+    }
+    .map-wrap {
+        margin-top: 0;
+    }
+    .map-wrap .map {
+        width: 250px;
+        height: 255px;
+        background: url(../images/page1/map_m.png) no-repeat center;
+        background-size: 250px 255px;
+        left: -10%;
+    }
+    .map .dot em {
+        bottom: -18px;
+        font-size: 10px;
+    }
+    .map .dot .hover {
+        left: -126px;
+        top: 100%;
+        width: 100px;
+        font-size: 12px;
+        padding: 5px 5px 5px 16px;
+    }
+    .map .dot .hover:before {
+        left: 6px;
+        margin-top: -2px;
+        width: 4px;
+        height: 4px;
+    }
+    /* 南京 */
+    .map .dot1 {
+        left: 40%;
+        top: 68%;
+        width: 14px;
+        height: 14px;
+    }
+    /* 扬州 */
+    .map .dot2 {
+        left: 55%;
+        top: 51%;
+        width: 8px;
+        height: 8px;
+    }
+    /* 南通 */
+    .map .dot3 {
+        left: 80%;
+        top: 65%;
+        width: 8px;
+        height: 8px;
+    }
+    /* 无锡 */
+    .map .dot4 {
+        left: 66%;
+        top: 82%;
+        width: 8px;
+        height: 8px;
+    }
+    /* 苏州 */
+    .map .dot5 {
+        left: 76%;
+        top: 86%;
+        width: 8px;
+        height: 8px;
+    }
 }
 
-@media (min-width:1440px) and (max-width:1680px) {
-
+@media (max-width: 375px) {
+    .act-users-num span {
+        width: 29px;
+        height: 50px;
+        background-size: 29px 50px;
+    }
+    .map-wrap .map {
+        left: -20%;
+    }
+    .prov-bar-wrap {
+        margin-top: 15%;
+    }
+    .act-users-num span i.an1,
+    .act-users-num span i.an2,
+    .act-users-num span i.an3,
+    .act-users-num span i.an4,
+    .act-users-num span i.an5,
+    .act-users-num span i.an6,
+    .act-users-num span i.an7,
+    .act-users-num span i.an8,
+    .act-users-num span i.an9,
+    .act-users-num span i.an.zero,
+    .act-users-num span i.an.one,
+    .act-users-num span i.an.two,
+    .act-users-num span i.an.three,
+    .act-users-num span i.an.four,
+    .act-users-num span i.an.five,
+    .act-users-num span i.an.six,
+    .act-users-num span i.an.seven,
+    .act-users-num span i.an.eight,
+    .act-users-num span i.an.nine {
+        background-position-x: -1px;
+    }
 }
 
-@media (min-width:1680px) and (max-width:1921px) {
 
+@media (max-width: 320px) {
+    .act-users-num span {
+        width: 24px;
+        height: 50px;
+        background-size: 24px 50px;
+    }
+    .act-users-num span i.an1,
+    .act-users-num span i.an2,
+    .act-users-num span i.an3,
+    .act-users-num span i.an4,
+    .act-users-num span i.an5,
+    .act-users-num span i.an6,
+    .act-users-num span i.an7,
+    .act-users-num span i.an8,
+    .act-users-num span i.an9,
+    .act-users-num span i.an.zero,
+    .act-users-num span i.an.one,
+    .act-users-num span i.an.two,
+    .act-users-num span i.an.three,
+    .act-users-num span i.an.four,
+    .act-users-num span i.an.five,
+    .act-users-num span i.an.six,
+    .act-users-num span i.an.seven,
+    .act-users-num span i.an.eight,
+    .act-users-num span i.an.nine {
+        background-position-x: -4px;
+    }
+    .bar-map-wrap {
+        margin-top: 8%;
+    }
 }
-
-@media (min-width:1921px) and (max-width:2560px) {
-
-}
-
-@media (min-width:2560px) {
-
-}*/
